@@ -1,5 +1,6 @@
 import { BookOpen, Users, Award, Heart, ArrowRight, CheckCircle2 } from 'lucide-react';
 import { ImageWithFallback } from '../figma/ImageWithFallback';
+import IslamicGroupImg from "../../../assets/img/islamic-group-of-man.avif";
 
 export default function HomeScreen() {
   const features = [
@@ -124,7 +125,7 @@ export default function HomeScreen() {
             </div>
             <div className="relative h-96 md:h-full min-h-[400px] rounded-2xl overflow-hidden shadow-2xl">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1631148902202-a7aa5d651445?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxxdXJhbiUyMHJlYWRpbmclMjBzdHVkZW50c3xlbnwxfHx8fDE3NzAwMDE2ODF8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                src={IslamicGroupImg.src}
                 alt="Santri belajar Al-Qur'an"
                 className="w-full h-full object-cover"
               />
