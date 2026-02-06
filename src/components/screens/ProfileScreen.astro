@@ -1,0 +1,201 @@
+---
+import { BookOpen, Users, Target, Heart } from "lucide-react";
+import IslamicGroupImg from "../../assets/img/islamic-group-of-man.avif";
+
+const values = [
+  {
+    icon: BookOpen,
+    title: "Qur'ani",
+    description:
+      "Menjadikan Al-Qur'an sebagai pedoman hidup dalam setiap aktivitas.",
+  },
+  {
+    icon: Heart,
+    title: "Akhlak Mulia",
+    description: "Membentuk karakter santri yang berakhlak mulia dan beradab.",
+  },
+  {
+    icon: Target,
+    title: "Disiplin",
+    description: "Membangun kedisiplinan dalam belajar dan beribadah.",
+  },
+  {
+    icon: Users,
+    title: "Ukhuwah",
+    description: "Memupuk persaudaraan dan kebersamaan antar santri.",
+  },
+];
+
+const timeline = [
+  {
+    year: "2010",
+    title: "Pendirian Pondok",
+    description:
+      "Pondok Pesantren Darurrohman didirikan dengan 20 santri pertama.",
+  },
+  {
+    year: "2015",
+    title: "Perluasan Fasilitas",
+    description: "Pembangunan gedung baru dan peningkatan fasilitas asrama.",
+  },
+  {
+    year: "2020",
+    title: "Program Tahfidz 30 Juz",
+    description: "Melahirkan lulusan pertama yang hafal 30 juz Al-Qur'an.",
+  },
+  {
+    year: "2026",
+    title: "Prestasi Nasional",
+    description:
+      "Lebih dari 500 santri aktif dengan berbagai prestasi tahfidz.",
+  },
+];
+---
+
+<div class="min-h-screen">
+  <!-- Hero -->
+  <section
+    class="relative bg-linear-to-br from-emerald-800 to-emerald-900 text-white py-20"
+  >
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl">
+        <span
+          class="inline-block bg-emerald-600/50 px-4 py-2 rounded-full text-sm mb-6"
+        >
+          Profil Pondok
+        </span>
+        <h1 class="text-4xl md:text-5xl mb-6 leading-tight">
+          Tentang Pondok Pesantren Darurrohman
+        </h1>
+        <p class="text-xl text-emerald-50 leading-relaxed">
+          Lembaga pendidikan Islam yang fokus pada pembinaan generasi Qur'ani
+          melalui program tahfidz berkualitas dengan lingkungan yang kondusif.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- History -->
+  <section class="py-16 md:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div
+          class="relative h-96 md:h-full min-h-100 rounded-2xl overflow-hidden shadow-2xl"
+        >
+          <img
+            src={IslamicGroupImg.src}
+            alt="Gedung Pondok Pesantren"
+            class="w-full h-full object-cover"
+            loading="lazy"
+          />
+        </div>
+
+        <div>
+          <span class="inline-block text-emerald-600 font-semibold mb-4">
+            Sejarah Kami
+          </span>
+          <h2 class="text-3xl md:text-4xl mb-6 text-gray-900">
+            Perjalanan Pondok Darurrohman
+          </h2>
+
+          <div class="space-y-6 text-gray-600 leading-relaxed">
+            <p>
+              Pondok Pesantren Tahfidz Qur'an Darurrohman didirikan pada tahun
+              2010 dengan visi mulia untuk mencetak generasi penghafal Al-Qur'an
+              yang berakhlak mulia dan bermanfaat bagi umat.
+            </p>
+            <p>
+              Berawal dari sebuah rumah sederhana dengan 20 santri pertama, kini
+              Darurrohman telah berkembang menjadi salah satu lembaga tahfidz
+              terpercaya dengan lebih dari 500 santri aktif.
+            </p>
+            <p>
+              Dengan metode pembelajaran yang teruji dan pengajar berkualitas,
+              kami telah menghasilkan ratusan hafidz dan hafidzah.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vision & Mission -->
+  <section class="py-16 md:py-24 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <span class="text-emerald-600 font-semibold mb-4 inline-block">
+          Visi & Misi
+        </span>
+        <h2 class="text-3xl md:text-4xl text-gray-900">Komitmen Kami</h2>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div class="bg-white p-8 rounded-xl shadow-sm">
+          <div
+            class="bg-emerald-50 w-12 h-12 rounded-lg flex items-center justify-center mb-6"
+          >
+            <Target className="w-6 h-6 text-emerald-700" />
+          </div>
+          <h3 class="text-2xl mb-4 text-gray-900">Visi</h3>
+          <p class="text-gray-600 leading-relaxed">
+            Menjadi lembaga pendidikan Islam unggulan yang mencetak generasi
+            penghafal Al-Qur'an yang berakhlak mulia dan bermanfaat bagi umat.
+          </p>
+        </div>
+
+        <div class="bg-white p-8 rounded-xl shadow-sm">
+          <div
+            class="bg-emerald-50 w-12 h-12 rounded-lg flex items-center justify-center mb-6"
+          >
+            <BookOpen className="w-6 h-6 text-emerald-700" />
+          </div>
+          <h3 class="text-2xl mb-4 text-gray-900">Misi</h3>
+          <ul class="space-y-3 text-gray-600">
+            <li>• Membimbing santri menghafal Al-Qur'an dengan tartil</li>
+            <li>• Membina akhlak dan karakter Islami</li>
+            <li>• Mengembangkan potensi akademik dan non-akademik</li>
+            <li>• Menciptakan lingkungan islami yang kondusif</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Values -->
+  <section class="py-16 md:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        {
+          values.map(({ icon: Icon, title, description }) => (
+            <div class="text-center p-6 rounded-xl hover:bg-gray-50">
+              <div class="bg-emerald-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Icon className="w-8 h-8 text-emerald-700" />
+              </div>
+              <h3 class="text-xl mb-3 text-gray-900">{title}</h3>
+              <p class="text-gray-600">{description}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline -->
+  <section class="py-16 md:py-24 bg-linear-to-br from-emerald-50 to-white">
+    <div class="max-w-4xl mx-auto space-y-8 px-4">
+      {
+        timeline.map((item) => (
+          <div class="flex gap-6">
+            <div class="bg-emerald-700 text-white w-20 h-20 rounded-xl flex items-center justify-center">
+              {item.year}
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm flex-1">
+              <h3 class="text-xl mb-2 text-gray-900">{item.title}</h3>
+              <p class="text-gray-600">{item.description}</p>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+</div>

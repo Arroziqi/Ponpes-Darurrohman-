@@ -47,7 +47,7 @@ export default function HomeScreen() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-emerald-800 via-emerald-700 to-emerald-900 text-white">
+      <section className="relative bg-linear-to-br from-emerald-800 via-emerald-700 to-emerald-900 text-white">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
             backgroundImage: 'url(https://images.unsplash.com/photo-1762380371959-96d7d36c09bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpc2xhbWljJTIwcGF0dGVybiUyMGdyZWVufGVufDF8fHx8MTc3MDAxMjk4OXww&ixlib=rb-4.1.0&q=80&w=1080)',
@@ -115,7 +115,7 @@ export default function HomeScreen() {
                       'Menciptakan lingkungan pembelajaran yang kondusif',
                     ].map((item, index) => (
                       <li key={index} className="flex items-start space-x-3">
-                        <CheckCircle2 className="w-5 h-5 text-emerald-600 flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
                         <span className="text-gray-600">{item}</span>
                       </li>
                     ))}
@@ -123,9 +123,9 @@ export default function HomeScreen() {
                 </div>
               </div>
             </div>
-            <div className="relative h-96 md:h-full min-h-[400px] rounded-2xl overflow-hidden shadow-2xl">
+            <div className="relative h-96 md:h-full min-h-100 rounded-2xl overflow-hidden shadow-2xl">
               <ImageWithFallback
-                src={IslamicGroupImg.src}
+                src="https://images.unsplash.com/photo-1631148902202-a7aa5d651445?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxxdXJhbiUyMHJlYWRpbmclMjBzdHVkZW50c3xlbnwxfHx8fDE3NzAwMDE2ODF8MA&ixlib=rb-4.1.0&q=80&w=1080"
                 alt="Santri belajar Al-Qur'an"
                 className="w-full h-full object-cover"
               />
@@ -181,7 +181,7 @@ export default function HomeScreen() {
             {programs.map((program, index) => (
               <div
                 key={index}
-                className="bg-gradient-to-br from-emerald-50 to-white border border-emerald-100 p-8 rounded-xl hover:shadow-lg transition-shadow"
+                className="bg-linear-to-br from-emerald-50 to-white border border-emerald-100 p-8 rounded-xl hover:shadow-lg transition-shadow"
               >
                 <div className="text-emerald-600 font-semibold mb-2">{program.duration}</div>
                 <h3 className="text-2xl mb-4 text-gray-900">{program.title}</h3>
@@ -200,7 +200,7 @@ export default function HomeScreen() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-gradient-to-br from-emerald-700 to-emerald-900 text-white">
+      <section className="py-16 md:py-24 bg-linear-to-br from-emerald-700 to-emerald-900 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl mb-6">
             Bergabunglah dengan Kami
@@ -230,11 +230,11 @@ export default function HomeScreen() {
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-block text-emerald-700 font-semibold mb-4">
-            Keutamaan Penghafal Al-Qur’an
+            Keutamaan Penghafal Al-Qur'an
           </span>
 
           <h2 className="text-3xl md:text-4xl text-gray-900 mb-10">
-            Hadits Nabi Muhammad ﷺ tentang Ahlul Qur’an
+            Hadits Nabi Muhammad ﷺ tentang Ahlul Qur'an
           </h2>
 
           <div className="bg-emerald-50 rounded-2xl shadow-md p-8 md:p-12">
@@ -245,7 +245,7 @@ export default function HomeScreen() {
 
             {/* Translation */}
             <p className="text-gray-700 text-lg md:text-xl leading-relaxed mb-6">
-              “Sesungguhnya Allah mengangkat derajat suatu kaum dengan Al-Qur’an
+              “Sesungguhnya Allah mengangkat derajat suatu kaum dengan Al-Qur'an
               ini, dan merendahkan kaum yang lain dengannya.”
             </p>
 

@@ -1,0 +1,59 @@
+=== PROGRAMS ===
+Program,Duration,Target,Description,Color
+Program Tahfidz 30 Juz,4-5 Tahun,Hafal 30 Juz Al-Qur'an,Program lengkap untuk menghafal seluruh Al-Qur'an 30 juz dengan metode yang teruji dan bimbingan intensif dari ustadz berpengalaman.,emerald
+Program Tahfidz 15 Juz,2-3 Tahun,Hafal 15 Juz Al-Qur'an,"Program menengah untuk menghafal 15 juz Al-Qur'an, cocok untuk santri dengan waktu terbatas namun berkomitmen tinggi.",teal
+Program Tahsin Al-Qur'an,1 Tahun,Membaca Al-Qur'an dengan Tartil,Program perbaikan bacaan Al-Qur'an sesuai kaidah tajwid dan makhraj yang benar sebelum memulai program hafalan.,cyan
+
+
+=== FEATURES ===
+Program,Feature
+Program Tahfidz 30 Juz,Target hafalan 1 juz per 2 bulan
+Program Tahfidz 30 Juz,Bimbingan setoran harian
+Program Tahfidz 30 Juz,Muraja'ah rutin terjadwal
+Program Tahfidz 30 Juz,Evaluasi hafalan berkala
+Program Tahfidz 30 Juz,Sertifikat Hafidz/Hafidzah
+Program Tahfidz 15 Juz,Target hafalan 1 juz per 2 bulan
+Program Tahfidz 15 Juz,Setoran harian dengan musyrif
+Program Tahfidz 15 Juz,Muraja'ah terjadwal
+Program Tahfidz 15 Juz,Evaluasi per 3 bulan
+Program Tahfidz 15 Juz,Sertifikat penghargaan
+Program Tahsin Al-Qur'an,Pembelajaran tajwid dasar
+Program Tahsin Al-Qur'an,Praktik makhraj huruf
+Program Tahsin Al-Qur'an,Bimbingan tartil
+Program Tahsin Al-Qur'an,Evaluasi berkala
+Program Tahsin Al-Qur'an,Sertifikat tahsin
+
+
+=== METHODS ===
+Method,Description
+Metode Talqin,Santri menyimak bacaan ustadz kemudian menirukan dengan benar.
+Metode Wahdah,Menghafal satu per satu ayat hingga lancar sebelum lanjut ayat berikutnya.
+Muraja'ah Rutin,Pengulangan hafalan secara terjadwal untuk menjaga kualitas hafalan.
+Tasmi' Jama'i,Mendengarkan hafalan bersama untuk saling mengoreksi dan menguatkan.
+
+
+=== SCHEDULE ===
+Time,Activity
+04:00 - 05:00,Tahajud & Tilawah
+05:00 - 06:00,Subuh & Muraja'ah Pagi
+06:00 - 07:30,Setoran Hafalan Baru
+07:30 - 08:00,Sarapan
+08:00 - 12:00,Pembelajaran Formal
+12:00 - 15:00,"Dzuhur, Ishoma & Ashar"
+15:00 - 17:00,Setoran Hafalan & Tahsin
+17:00 - 18:30,Maghrib & Kajian
+18:30 - 20:00,Isya & Muraja'ah Malam
+20:00 - 21:30,Belajar Mandiri
+21:30 - 04:00,Istirahat
+
+
+=== FACILITIES ===
+Facility
+Asrama nyaman dan bersih
+Ruang belajar ber-AC
+Perpustakaan lengkap
+Masjid representatif
+Kantin sehat
+Lapangan olahraga
+Klinik kesehatan
+Free WiFi area

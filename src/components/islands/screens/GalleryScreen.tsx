@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { ImageWithFallback } from '@/app/components/figma/ImageWithFallback';
+import { ImageWithFallback } from '../figma/ImageWithFallback';
 
-export function GalleryPage() {
+export function GalleryScreen() {
   const [activeCategory, setActiveCategory] = useState('all');
 
   const categories = [
@@ -85,7 +85,7 @@ export function GalleryPage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-emerald-800 to-emerald-900 text-white py-20">
+      <section className="relative bg-linear-to-br from-emerald-800 to-emerald-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <span className="inline-block bg-emerald-600/50 text-white px-4 py-2 rounded-full text-sm backdrop-blur-sm mb-6">
@@ -137,7 +137,7 @@ export function GalleryPage() {
                     alt={item.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute inset-0 bg-linear-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl mb-2 text-gray-900">{item.title}</h3>
@@ -168,19 +168,19 @@ export function GalleryPage() {
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            <div className="bg-gradient-to-br from-emerald-50 to-white border border-emerald-100 rounded-xl p-6 text-center">
+            <div className="bg-linear-to-br from-emerald-50 to-white border border-emerald-100 rounded-xl p-6 text-center">
               <div className="text-4xl md:text-5xl text-emerald-700 mb-2">100+</div>
               <div className="text-gray-600">Kegiatan per Tahun</div>
             </div>
-            <div className="bg-gradient-to-br from-emerald-50 to-white border border-emerald-100 rounded-xl p-6 text-center">
+            <div className="bg-linear-to-br from-emerald-50 to-white border border-emerald-100 rounded-xl p-6 text-center">
               <div className="text-4xl md:text-5xl text-emerald-700 mb-2">50+</div>
               <div className="text-gray-600">Prestasi Santri</div>
             </div>
-            <div className="bg-gradient-to-br from-emerald-50 to-white border border-emerald-100 rounded-xl p-6 text-center">
+            <div className="bg-linear-to-br from-emerald-50 to-white border border-emerald-100 rounded-xl p-6 text-center">
               <div className="text-4xl md:text-5xl text-emerald-700 mb-2">20+</div>
               <div className="text-gray-600">Ekstrakurikuler</div>
             </div>
-            <div className="bg-gradient-to-br from-emerald-50 to-white border border-emerald-100 rounded-xl p-6 text-center">
+            <div className="bg-linear-to-br from-emerald-50 to-white border border-emerald-100 rounded-xl p-6 text-center">
               <div className="text-4xl md:text-5xl text-emerald-700 mb-2">15+</div>
               <div className="text-gray-600">Fasilitas Lengkap</div>
             </div>
@@ -189,7 +189,7 @@ export function GalleryPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-gradient-to-br from-emerald-700 to-emerald-900 text-white">
+      <section className="py-16 md:py-24 bg-linear-to-br from-emerald-700 to-emerald-900 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl mb-6">
             Ingin Melihat Langsung?

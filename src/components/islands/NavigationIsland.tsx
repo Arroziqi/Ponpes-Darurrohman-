@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Menu, X } from 'lucide-react'
 
 const navLinks = [
@@ -13,8 +13,11 @@ const navLinks = [
 export default function NavigationIsland() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  const pathname =
-    typeof window !== 'undefined' ? window.location.pathname : '/'
+  const [pathname, setPathname] = useState('/')
+
+  useEffect(() => {
+    setPathname(window.location.pathname)
+  }, [])
 
   const isActive = (path: string) => pathname === path
 
