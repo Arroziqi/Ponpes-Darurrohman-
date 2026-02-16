@@ -1,6 +1,5 @@
-import { BookOpen, Users, Award, Heart, ArrowRight, CheckCircle2 } from 'lucide-react';
-import { ImageWithFallback } from '../figma/ImageWithFallback';
-import IslamicGroupImg from "../../../assets/img/islamic-group-of-man.avif";
+import {ArrowRight, Award, BookOpen, CheckCircle2, Heart, Users} from 'lucide-react';
+import {ImageWithFallback} from '../figma/ImageWithFallback';
 
 export default function HomeScreen() {
   const features = [
@@ -28,20 +27,20 @@ export default function HomeScreen() {
 
   const programs = [
     {
-      title: 'Program 30 Juz',
-      duration: '4-5 Tahun',
-      description: 'Program lengkap menghafal 30 juz Al-Qur\'an dengan metode yang teruji dan bimbingan intensif.',
+      title: 'Takhassus Al-Qur’an',
+      duration: 'Target 1 Tahun (Bil Ghoib / Bil Hifdzi)',
+      description: 'Program Takhassus Al-Qur’an dengan fokus bin nadzor/tahsin serta bil ghoib/bil hifdzi dengan target khatam 30 juz dalam 1 tahun melalui bimbingan intensif dan metode terstruktur.',
     },
     {
-      title: 'Program 15 Juz',
-      duration: '2-3 Tahun',
-      description: 'Program menghafal 15 juz Al-Qur\'an untuk santri dengan waktu terbatas namun komitmen tinggi.',
+      title: 'Ngaji Kitab Kuning',
+      duration: 'Program Berjenjang',
+      description: 'Pembelajaran kitab kuning meliputi Ilmu Alat (Nahwu & Shorof), Fiqh Dasar, Tafsir, dan Tajwid sebagai fondasi pemahaman keislaman yang komprehensif dan terstruktur.',
     },
     {
-      title: 'Program Tahsin',
-      duration: '1 Tahun',
-      description: 'Perbaikan bacaan Al-Qur\'an sesuai tajwid dan makhraj yang benar sebelum memulai hafalan.',
-    },
+      title: 'Sekolah Formal',
+      duration: 'Sesuai Jenjang Pendidikan',
+      description: 'Program pendidikan formal melalui Kejar Paket A/B/C serta kerja sama dengan MTs Yakti Tegalrejo untuk jenjang SLTP, guna mendukung keseimbangan antara pendidikan diniyah dan akademik.',
+    }
   ];
 
   return (
@@ -168,12 +167,15 @@ export default function HomeScreen() {
       <section className="py-16 md:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <span className="inline-block text-emerald-600 font-semibold mb-4">Program Kami</span>
+            <span className="inline-block text-emerald-600 font-semibold mb-4">
+              Program Pendidikan
+            </span>
             <h2 className="text-3xl md:text-4xl text-gray-900 mb-4">
-              Program Tahfidz Unggulan
+              Program Unggulan Kami
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Pilih program tahfidz yang sesuai dengan target dan kemampuan Anda.
+              Kami menghadirkan program terpadu meliputi Takhassus Al-Qur’an, Ngaji Kitab Kuning,
+              serta Sekolah Formal untuk membentuk generasi yang berilmu, berakhlak, dan berprestasi.
             </p>
           </div>
 
@@ -206,7 +208,7 @@ export default function HomeScreen() {
             Bergabunglah dengan Kami
           </h2>
           <p className="text-xl text-emerald-50 mb-8 leading-relaxed">
-            Wujudkan impian menjadi penghafal Al-Qur'an. Daftarkan diri Anda atau putra-putri Anda sekarang juga.
+            Wujudkan impian menjadi penghafal Al-Qur'an. Daftarkan diri Anda atau putra Anda sekarang juga.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

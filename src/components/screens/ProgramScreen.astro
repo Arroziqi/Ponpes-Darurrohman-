@@ -11,47 +11,47 @@ import { ImageWithFallback } from "../islands/figma/ImageWithFallback";
 
 const programs = [
   {
-    title: "Program Tahfidz 30 Juz",
-    duration: "4-5 Tahun",
-    target: "Hafal 30 Juz Al-Qur'an",
+    title: "Takhassus Al-Qur’an",
+    duration: "Target 1 Tahun (Bil Ghoib / Bil Hifdzi)",
+    target: "Khatam 30 Juz",
     description:
-      "Program lengkap untuk menghafal seluruh Al-Qur'an 30 juz dengan metode yang teruji dan bimbingan intensif dari ustadz berpengalaman.",
+        "Program Takhassus Al-Qur’an dengan fokus bin nadzor/tahsin serta bil ghoib / bil hifdzi dengan target khatam 30 juz dalam 1 tahun melalui bimbingan intensif dan metode terstruktur.",
     features: [
-      "Target hafalan 1 juz per 2 bulan",
-      "Bimbingan setoran harian",
-      "Muraja'ah rutin terjadwal",
+      "Bin nadzor / tahsin",
+      "Bil ghoib / Bil hifdzi (target 1 tahun khatam)",
+      "Setoran hafalan harian",
+      "Muraja’ah terjadwal",
       "Evaluasi hafalan berkala",
-      "Sertifikat Hafidz/Hafidzah",
     ],
     color: "emerald",
   },
   {
-    title: "Program Tahfidz 15 Juz",
-    duration: "2-3 Tahun",
-    target: "Hafal 15 Juz Al-Qur'an",
+    title: "Ngaji Kitab Kuning",
+    duration: "Program Berjenjang",
+    target: "Pendalaman Ilmu Keislaman",
     description:
-      "Program menengah untuk menghafal 15 juz Al-Qur'an, cocok untuk santri dengan waktu terbatas namun berkomitmen tinggi.",
+        "Pembelajaran kitab kuning meliputi Ilmu Alat (Nahwu & Shorof), Fiqh Dasar, Tafsir, dan Tajwid sebagai fondasi pemahaman keislaman yang komprehensif dan terstruktur.",
     features: [
-      "Target hafalan 1 juz per 2 bulan",
-      "Setoran harian dengan musyrif",
-      "Muraja'ah terjadwal",
-      "Evaluasi per 3 bulan",
-      "Sertifikat penghargaan",
+      "Ilmu Alat (Nahwu & Shorof)",
+      "Fiqh Dasar",
+      "Tafsir",
+      "Tajwid",
+      "Pembelajaran sistem halaqah",
     ],
     color: "teal",
   },
   {
-    title: "Program Tahsin Al-Qur'an",
-    duration: "1 Tahun",
-    target: "Membaca Al-Qur'an dengan Tartil",
+    title: "Sekolah Formal",
+    duration: "Sesuai Jenjang Pendidikan",
+    target: "Pendidikan Akademik Terakreditasi",
     description:
-      "Program perbaikan bacaan Al-Qur'an sesuai kaidah tajwid dan makhraj yang benar sebelum memulai program hafalan.",
+        "Program pendidikan formal melalui Kejar Paket A/B/C serta kerja sama dengan MTs Yakti Tegalrejo untuk jenjang SLTP guna mendukung keseimbangan antara pendidikan diniyah dan akademik.",
     features: [
-      "Pembelajaran tajwid dasar",
-      "Praktik makhraj huruf",
-      "Bimbingan tartil",
-      "Evaluasi berkala",
-      "Sertifikat tahsin",
+      "Program Kejar Paket A/B/C",
+      "Kerja sama dengan MTs Yakti Tegalrejo (SLTP)",
+      "Kurikulum terstruktur",
+      "Ijazah resmi sesuai jenjang",
+      "Pendampingan akademik",
     ],
     color: "cyan",
   },
@@ -100,17 +100,11 @@ const methods: Method[] = [
 ];
 
 const schedule = [
-  { time: "04:00 - 05:00", activity: "Tahajud & Tilawah" },
-  { time: "05:00 - 06:00", activity: "Subuh & Muraja'ah Pagi" },
-  { time: "06:00 - 07:30", activity: "Setoran Hafalan Baru" },
-  { time: "07:30 - 08:00", activity: "Sarapan" },
-  { time: "08:00 - 12:00", activity: "Pembelajaran Formal" },
-  { time: "12:00 - 15:00", activity: "Dzuhur, Ishoma & Ashar" },
-  { time: "15:00 - 17:00", activity: "Setoran Hafalan & Tahsin" },
-  { time: "17:00 - 18:30", activity: "Maghrib & Kajian" },
-  { time: "18:30 - 20:00", activity: "Isya & Muraja'ah Malam" },
-  { time: "20:00 - 21:30", activity: "Belajar Mandiri" },
-  { time: "21:30 - 04:00", activity: "Istirahat" },
+  { time: "03:00 - 07:00", activity: "Tahajjud || Mujahadah Harian || Shubuh Jama’ah || Majelis Sabaq (Ziyadah Hafalan)" },
+  { time: "08:30 - 11:00", activity: "Dhuha || Majelis Sabqi (Muraja’ah Hafalan)" },
+  { time: "12:30 - 14:00", activity: "Dzuhur Jama’ah || Ta’lim || Majelis Sabaq || Ngaji Alat" },
+  { time: "15:30 - 17:00", activity: "Ashar Jama’ah || Yasinan || Majelis Sabaq" },
+  { time: "18:00 - 21:00", activity: "Maghrib Jama’ah || Ngaji Fiqh || Isya’ Jama’ah || Musyawarah Harian || Majelis Manzil || Ngaji Alat" },
 ];
 
 const facilities = [
@@ -138,12 +132,10 @@ const facilities = [
           Program Kami
         </span>
         <h1 class="text-4xl md:text-5xl mb-6 leading-tight">
-          Program Tahfidz Qur'an
+          Program Pesantren
         </h1>
         <p class="text-xl text-emerald-50 leading-relaxed">
-          Pilih program tahfidz yang sesuai dengan target dan kemampuan Anda.
-          Kami menyediakan berbagai program dengan metode pembelajaran yang
-          teruji dan efektif.
+          Program ini disusun guna menyiapkan santri yang Alim, berintegritas terhadap Al-Qur’an, serta memiliki keseimbangan antara pendidikan diniyah dan akademik.
         </p>
       </div>
     </div>
@@ -153,15 +145,13 @@ const facilities = [
   <section class="py-16 md:py-24 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
-        <span class="inline-block text-emerald-600 font-semibold mb-4"
-          >Pilihan Program</span
-        >
+        <span class="inline-block text-emerald-600 font-semibold mb-4">Program Pendidikan</span>
         <h2 class="text-3xl md:text-4xl text-gray-900 mb-4">
-          Program Tahfidz Kami
+          Program Unggulan Kami
         </h2>
         <p class="text-gray-600 max-w-2xl mx-auto">
-          Setiap program dirancang dengan sistematis untuk membantu Anda
-          mencapai target hafalan dengan baik.
+          Kami menghadirkan program terpadu meliputi Takhassus Al-Qur’an, Ngaji Kitab Kuning,
+          serta Sekolah Formal untuk membentuk generasi yang berilmu, berakhlak, dan berprestasi.
         </p>
       </div>
 
@@ -300,7 +290,7 @@ const facilities = [
   </section>
 
   {/* Facilities */}
-  <section
+  <section hidden
     class="py-16 md:py-24 bg-linear-to-br from-emerald-700 to-emerald-900 text-white"
   >
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
